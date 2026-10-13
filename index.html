@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#C00000">
+  <meta name="description" content="芦荡薪火——沙家浜红色文化美育项目门户。探索红色京剧文创、沉浸式剧本杀与四季美育研学。">
+  <title>芦荡薪火 · 沙家浜红色美育</title>
+  <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg">
+  <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">跳至正文</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="#home" class="brand" aria-label="芦荡薪火首页">
+        <svg class="brand-mark" viewBox="0 0 48 48" fill="none" aria-hidden="true"><path d="M24 41V18M15 41V25M33 41V24" stroke="currentColor" stroke-width="1.5"/><path d="M24 22c-9-6-9-13-2-19 7 7 10 13 2 19ZM15 29c-8-3-11-8-8-14 7 3 12 7 8 14ZM33 28c8-4 11-9 7-15-7 4-11 8-7 15Z" fill="currentColor"/><path d="M5 42c12-4 26-4 38 0M8 46c10-3 22-3 32 0" stroke="currentColor"/></svg>
+        <span><strong>芦荡薪火</strong><small>沙家浜红色美育</small></span>
+      </a>
+      <nav class="main-nav" aria-label="主导航">
+        <a href="#home" data-nav="home">首页</a>
+        <a href="#project" data-nav="project">走近项目</a>
+        <a href="#shop" data-nav="shop">文创商城</a>
+        <a href="#activities" data-nav="activities">活动预约</a>
+        <a href="#stories" data-nav="stories">美育足迹</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-button cart-toggle" aria-label="打开购物袋"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 8h14l1 12H4L5 8Z M8 8V6a4 4 0 0 1 8 0v2" stroke="currentColor" stroke-width="1.5"/></svg><span class="cart-count" hidden>0</span></button>
+        <button class="button small primary desktop-book" data-book="">预约体验 <span aria-hidden="true">↗</span></button>
+        <button class="icon-button menu-toggle" aria-label="打开导航" aria-expanded="false" aria-controls="mobile-nav"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="1.5"/></svg></button>
+      </div>
+    </div>
+    <nav id="mobile-nav" class="mobile-nav" aria-label="移动端导航" hidden><a href="#home">首页</a><a href="#project">走近项目</a><a href="#shop">文创商城</a><a href="#activities">活动预约</a><a href="#stories">美育足迹</a></nav>
+  </header>
+  <main id="main-content" tabindex="-1"></main>
+  <footer class="site-footer">
+    <div class="footer-top container"><div><a href="#home" class="footer-brand">芦荡薪火<span>REED & FLAME</span></a><p>让老故事，被新一代看见。<br>以美育人，以文化心。</p></div><div><h3>探索</h3><a href="#project">走近项目</a><a href="#stories">美育足迹</a><a href="#project" data-section="materials">项目资料</a></div><div><h3>参与</h3><a href="#shop">文创商城</a><a href="#activities">活动预约</a><button class="text-link" data-info="faq">常见问题</button></div><div class="footer-note"><h3>红色文化 · 青年传承</h3><p>立足沙家浜，连接课堂、社区与生活。<br>欢迎学校、社区与文化机构共同参与。</p><button class="text-link" data-info="cooperation">了解合作方式 <span aria-hidden="true">↗</span></button></div></div>
+    <div class="footer-bottom container"><span>© <span id="year">2026</span> 芦荡薪火 · 红色文化美育项目</span><div><button class="text-link" data-info="privacy">隐私说明</button><span class="demo-label">展示与流程演示版</span></div></div>
+  </footer>
+  <dialog id="modal" aria-labelledby="modal-title"></dialog>
+  <dialog id="cart" class="cart-dialog" aria-labelledby="cart-title"></dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <noscript><div class="noscript-note">请开启 JavaScript 以浏览商品和体验预约流程。项目介绍：芦荡薪火以沙家浜红色文化、京剧艺术与四季研学为载体，连接青年美育与文化传承。</div></noscript>
+</body>
+</html>
