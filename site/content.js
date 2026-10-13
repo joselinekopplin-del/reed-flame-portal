@@ -1,8 +1,8 @@
 export const products = [
   { id:'bookmark', name:'京剧脸谱书签', subtitle:'一页书香，一抹京韵', price:28, image:'bookmark.webp', categories:['红色京剧文创','研学周边'], tag:'京韵入日常', variants:['红色流苏款','经典脸谱款'], description:'将京剧脸谱的色彩与造型留在书页之间。在阅读中认识戏曲人物，让传统艺术走进日常。', goal:'观察脸谱色彩，感受角色造型与戏曲艺术的表达。', note:'款式、材质与尺寸以正式商品信息为准。' },
-  { id:'scarf', name:'蓝印花布京剧丝巾', subtitle:'把江南与戏曲，轻轻系上', price:128, image:'scarf.webp', categories:['红色京剧文创','体验伴手礼'], tag:'江南之美', variants:['藏蓝京剧款','经典花布款'], description:'蓝印花布纹样与京剧人物相遇，让江南的温柔与舞台的色彩融入一方丝巾。', goal:'理解传统纹样与戏曲人物的融合，体验日常生活中的美。', note:'面料、尺寸与工艺以正式商品信息为准。' },
+  { id:'scarf', name:'蓝印花布京剧丝巾', subtitle:'把江南与戏曲，轻轻系上', price:28, image:'scarf.webp', categories:['红色京剧文创','体验伴手礼'], tag:'江南之美', variants:['藏蓝京剧款','经典花布款'], description:'蓝印花布纹样与京剧人物相遇，让江南的温柔与舞台的色彩融入一方丝巾。', goal:'理解传统纹样与戏曲人物的融合，体验日常生活中的美。', note:'面料、尺寸与工艺以正式商品信息为准。' },
   { id:'gift-box', name:'京剧联名礼盒', subtitle:'一盒心意，一段沙家浜故事', price:268, image:'gift-box.webp', categories:['体验伴手礼'], tag:'沙家浜心意', variants:['文化体验礼盒'], description:'以沙家浜京剧文化为灵感的联名礼盒，连接戏曲故事与在地物产。礼盒设计融合京剧元素与大闸蟹等地方特色，传递沙家浜的文化心意。', goal:'理解在地文化与特色物产的关系，让文化记忆成为可以分享的心意。', note:'当前展示为设计概念。正式礼盒内容、食品资质、配送范围与售价待运营方确认。' },
-  { id:'figurine', name:'戏曲人物手办', subtitle:'让经典角色，走下舞台', price:168, image:'figurine.webp', categories:['红色京剧文创','研学周边'], tag:'经典角色', variants:['阿庆嫂角色款','戏曲人物款'], description:'以戏曲人物为原型的立体文创，观察服饰、姿态与人物神韵，也可以作为研学故事讲述的辅助素材。', goal:'通过人物造型理解角色性格，用自己的语言讲述红色故事。', note:'角色、款式、材质与尺寸以正式商品信息为准。' },
+  { id:'figurine', name:'戏曲人物手办', subtitle:'让经典角色，走下舞台', price:58, image:'figurine.webp', categories:['红色京剧文创','研学周边'], tag:'经典角色', variants:['阿庆嫂角色款','戏曲人物款'], description:'以戏曲人物为原型的立体文创，观察服饰、姿态与人物神韵，也可以作为研学故事讲述的辅助素材。', goal:'通过人物造型理解角色性格，用自己的语言讲述红色故事。', note:'角色、款式、材质与尺寸以正式商品信息为准。' },
 ];
 
 export const activities = [
