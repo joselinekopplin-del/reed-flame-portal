@@ -1,0 +1,10 @@
+{
+  "name": "reed-flame-portal",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "check": "node --check site/app.js && node --check site/content.js && node --check site/config.js"
+  }
+}
